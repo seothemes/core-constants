@@ -1,0 +1,18 @@
+{
+    "name": "seothemes/core-constants",
+    "description": "Dynamically defines constants for use throughout child themes",
+    "type": "library",
+    "license": "gpl-2.0-or-later",
+    "authors": [
+        {
+            "name": "seothemes",
+            "email": "seothemeswp@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "SEOThemes\\Core\\": "src/"
+        }
+    }
+}
