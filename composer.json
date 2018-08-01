@@ -9,7 +9,9 @@
             "email": "seothemeswp@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "d2/core": "^0.1.0"
+    },
     "autoload": {
         "psr-4": {
             "SEOThemes\\Core\\": "src/"
