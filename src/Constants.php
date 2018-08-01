@@ -47,7 +47,7 @@ class Constants extends Core {
 
 		if ( array_key_exists( self::DEFINE, $this->config ) ) {
 
-			$this->define_constants( $this->config[ self::ADD ] );
+			$this->define_constants( $this->config[ self::DEFINE ] );
 
 		}
 
